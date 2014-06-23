@@ -15,7 +15,7 @@ make slides
 Rscript -e "library(knitr); knit('index.Rhtml', quiet = TRUE)"
 ```
 
-Then make sure all the changes are on the `gh-pages` branch. Otherwise simply switch to `gh-pages` and merge master:
+This repo only has a `gh-pages` branch and no master. So once you clone, there is no need to create and push to a new `gh-pages` branch. 
 
 ```
 git checkout gh-pages
