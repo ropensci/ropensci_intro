@@ -9,7 +9,8 @@ __How to use this repo__
 2. Edit the slides (at the very least edit [your name and url](https://github.com/ropensci/ropensci_intro/blob/master/index.Rhtml#L3-L5) of the presentation at the top of `index.Rhtml`).
 3. Remove any slides that might be irrelevant to your audience.
 4. To build `index.html` run this from your shell:
-```
+
+```bash
 make slides
 # Or of you don't have Make
 Rscript -e "library(knitr); knit('index.Rhtml', quiet = TRUE)"
