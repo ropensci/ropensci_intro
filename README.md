@@ -6,7 +6,7 @@ If you are attending a conference, or have a chance to speak about the rOpenSci 
 __How to use this repo__
 
 1. Fork this repo into your own account
-2. Edit the slides (at the very least edit your name and url of the presentation at the top of `index.Rhtml`).
+2. Edit the slides (at the very least edit [your name and url](https://github.com/ropensci/ropensci_intro/blob/master/index.Rhtml#L3-L5) of the presentation at the top of `index.Rhtml`).
 3. Remove any slides that might be irrelevant to your audience.
 4. To build `index.html`
 ```
