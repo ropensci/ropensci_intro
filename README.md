@@ -17,11 +17,6 @@ Rscript -e "library(knitr); knit('index.Rhtml', quiet = TRUE)"
 
 This repo only has a `gh-pages` branch and no master. So once you clone, there is no need to create and push to a new `gh-pages` branch. 
 
-```
-git checkout gh-pages
-git merge master
-```
-
 Then you can present your talk at `http://YOUR_USERNAME.github.io/ropensci_intro`. This presentation, for example, is available at [`http://ropensci.github.io/ropensci_intro`](http://ropensci.github.io/ropensci_intro)
 
 This frees you up from even bringing your own laptop if there already one at the venue. If you anticipate not having an internet connection, simply clone a copy first on to a thumbdrive before you no lose internet access.
