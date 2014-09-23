@@ -16,7 +16,7 @@ make slides
 Rscript -e "library(knitr); knit('index.Rhtml', quiet = TRUE)"
 ```
 
-This repo only has a `gh-pages` branch and no master. So once you clone, there is no need to create and push to a new `gh-pages` branch. 
+This repo only has a `gh-pages` branch and no master. So once you fork, there is no need to create and push to a new `gh-pages` branch. If you clone this repo, be sure to delete the remote and add your own.
 
 Then you can present your talk at `http://YOUR_USERNAME.github.io/ropensci_intro`. This presentation, for example, is available at [`http://ropensci.github.io/ropensci_intro`](http://ropensci.github.io/ropensci_intro)
 
